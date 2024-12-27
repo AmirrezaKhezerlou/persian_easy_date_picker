@@ -44,16 +44,16 @@ class CustomHorizontalStepper extends StatelessWidget {
                       : Colors.grey[300],
                 ),
                 child: Center(
-                  child: Text(
-                    '${stepIndex + 1}',
-                    style: TextStyle(
-                      color: isActive ? Colors.white : Colors.black,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 10,
-                    ),
+                  child: Icon(
+                    isCurrent
+                        ? Icons.access_time
+                        : (isActive ? Icons.check : Icons.close),
+                    color: isActive ? Colors.white : Colors.black,
+                    size: 12,
                   ),
                 ),
               ),
+
               const SizedBox(height: 8),
               Text(
                 steps[stepIndex],
