@@ -38,7 +38,6 @@ class PersianDatePicker {
     doneButtonText??='پایان';
     cancelButtonColor??=Colors.red;
     cancelButtonText??='لغو';
-
     canSelectPastTime ??= true;
     canSelectFutureTime ??= true;
     blurredBackground ??= false;

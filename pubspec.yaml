@@ -1,7 +1,7 @@
 name: persian_easy_date_picker
-description: "A new Flutter package project."
+description: "A simple and customizable Flutter package for selecting Persian (Jalali) dates with ease."
 version: 0.0.1
-homepage:
+homepage: https://github.com/AmirrezaKhezerlou/persian_easy_date_picker.git
 
 environment:
   sdk: '>=3.3.2 <4.0.0'
